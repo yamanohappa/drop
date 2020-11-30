@@ -1,7 +1,7 @@
-import * as WebGL from "./webgl";
-import GL from "./gl-obj";
-import loadImages from "./image-loader";
-import createCanvas from "./create-canvas";
+import * as WebGL from "./webgl.js";
+import GL from "./gl-obj.js";
+import loadImages from "./image-loader.js";
+import createCanvas from "./create-canvas.js";
 let requireShaderScript = require("glslify");
 
 let vertShader = requireShaderScript('./shaders/simple.vert');
