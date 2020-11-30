@@ -1,7 +1,7 @@
-import loadImages from "./image-loader";
+import loadImages from "./image-loader.js";
 import times from "./times.js";
 import createCanvas from "./create-canvas.js";
-import {random, chance} from "./random";
+import {random, chance} from "./random.js";
 
 let dropSize=64;
 const Drop={
